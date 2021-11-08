@@ -61,6 +61,8 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+    Closure is when in a nested function the inner function goes out of it's scope to get a value that is defined.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,9 +84,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+    The closure is the name parameter because the inner fucntion goes out of it's scope and to the outer function to define the value of name.
 
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+    The name would always be the same but the newRoll would change.
+    
+c. What is the lexical scope of `newRoll`? 
+    The lexical scope of newRoll is in the inner function.
 
 ### Task 3 - Stretch Goals
 
